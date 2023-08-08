@@ -1,0 +1,100 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    height : 55px;
+}
+.webname {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.webname p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+.webname p span{
+    color: rgba(243, 47, 129, 0.795);
+}
+
+.temp{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.lang select {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.lang select option {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+}
+
+.lang select option:hover {
+    background-color: #f2f2f2;
+}
+
+.run-button {
+    text-align: center;
+  }
+  
+  .run-button button {
+    font-size: 14px;
+    padding: 5px 15px;
+    background-color: #c35a21;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .run-button button:hover {
+    background-color: #45a049;
+  }
+  .run-button button:active {
+    background-color: #45a049;
+  }
+  
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.container-left{
+    width: 100%;
+}
+.container-right{
+    background-color: #0e0e0f28;
+    margin-left: 30px;;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.input-box textarea{
+    resize: none;
+    border-radius: 4px;
+
+}
+.output-box textarea{
+    resize:none;
+    border-radius: 4px;
+}
+  
